@@ -15,7 +15,7 @@
 #pragma once
 
 #if defined(__HIPCC__)
-#include "ck_matmul_vectorized.h"
+#include "ck_matmul.h"
 
 #elif defined(__NVCC__)
 #include "cutlass_matmul.cuh"
